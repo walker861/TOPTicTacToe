@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      
+      <div class="message" >
+      </div>
+      
+      <form class="name-form">
+        <label for="player1-name">Enter player X name:
+        <input type="text" name="player1-name" id="player1-name"></label>
+
+        <label for="player2-name">Enter player O name:
+        <input type="text" name="player2-name" id="player2-name"></label>
+
+        <button class="start-button" type="button">Start Game</button>
+      </form>
+
+      <div class="gameboard-container">
+        <div class="cell" id="0"></div>
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
+       
+      </div>
+
+      <div class="scoreboard">
+        <div class="player1 player">
+          <h2>Player X</h2>
+          <h3></h3>
+          <span class="score">0</span>
+        </div>
+        <div class="player2 player">
+          <h2>Player O</h2>
+          <h3></h3>
+          <span class="score">0</span>
+        </div>
+      </div>
+
+      <div class="buttons-container">
+        <button class="reset-score">Reset Score</button>
+        <button class="reset-board">Reset Board</button>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+     <!-- <script src="console-version.js"></script> -->
+     <script src="oop-console-version.js" defer></script>
+  </body>
+</html>
